@@ -1,7 +1,7 @@
 <aside id="leftsidebar" class="sidebar">
     <ul class="nav nav-tabs">
         <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#dashboard"><i
-                    class="zmdi zmdi-home m-r-5"></i>Oreo</a></li>
+                    class="zmdi zmdi-home m-r-5"></i>Home</a></li>
         <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#user"><i
                     class="zmdi zmdi-account m-r-5"></i>User</a></li>
     </ul>
@@ -14,25 +14,16 @@
                             <div class="image"><a href="profile.html"><img src="assets/images/profile_av.jpg"
                                         alt="User"></a></div>
                             <div class="detail">
-                                <h4>Michael</h4>
-                                <small>UI UX Designer</small>
+                                <h4>Nama</h4>
+                                <small>Role</small>
                             </div>
                             <a title="facebook" href="#"><i class="zmdi zmdi-facebook"></i></a>
                             <a title="twitter" href="#"><i class="zmdi zmdi-twitter"></i></a>
                             <a title="instagram" href="#"><i class="zmdi zmdi-instagram"></i></a>
                         </div>
                     </li>
-                    <li class="header">MAIN</li>
-                    <li class="active open"> <a href="javascript:void(0);" class="menu-toggle"><i
+                    <li class="active open"> <a href="{{ route('dashboard') }}"><i
                                 class="zmdi zmdi-home"></i><span>Dashboard</span></a>
-                        <ul class="ml-menu">
-                            <li class="active"><a href="index.html">Main</a> </li>
-                            <li><a href="dashboard-rtl.html">RTL</a></li>
-                            <li><a href="index2.html">Horizontal</a></li>
-                            <li><a href="ec-dashboard.html">Ecommerce</a></li>
-                            <li><a href="blog-dashboard.html">Blog</a></li>
-                        </ul>
-                    </li>
                     <li> <a href="javascript:void(0);" class="menu-toggle"><i
                                 class="zmdi zmdi-apps"></i><span>App</span> </a>
                         <ul class="ml-menu">

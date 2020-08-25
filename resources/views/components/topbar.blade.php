@@ -2,9 +2,9 @@
     <ul class="nav navbar-nav navbar-left">
         <li>
             <div class="navbar-header">
-                <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" width="30" alt="Oreo"><span
-                        class="m-l-10">Oreo</span></a>
+                {{-- <a href="javascript:void(0);" class="bars"></a> --}}
+                <a class="navbar-brand" href="{{ route('dashboard') }}"><img src="assets/images/logo.svg" width="30"
+                        alt="Oreo"><span class="m-l-10">SimooSi</span></a>
             </div>
         </li>
         <li><a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"><i class="zmdi zmdi-swap"></i></a>
@@ -191,7 +191,7 @@
         <li class="float-right">
             <a href="javascript:void(0);" class="fullscreen hidden-sm-down" data-provide="fullscreen"
                 data-close="true"><i class="zmdi zmdi-fullscreen"></i></a>
-            <a href="sign-in.html" class="mega-menu" data-close="true"><i class="zmdi zmdi-power"></i></a>
+            <a href="{{ route('login') }}" class="mega-menu" data-close="true"><i class="zmdi zmdi-power"></i></a>
             <a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i
                     class="zmdi zmdi-settings zmdi-hc-spin"></i></a>
         </li>
