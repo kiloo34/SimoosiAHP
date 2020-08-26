@@ -11,7 +11,12 @@
                 <li class="breadcrumb-item"><a href="{{ route('dashboard') }}"><i class="zmdi zmdi-home"></i>
                         SimooSi</a>
                 </li>
+                @if ($subtitle == '')
                 <li class="breadcrumb-item active">{{$title}}</li>
+                @else
+                <li class="breadcrumb-item"><a href="{{ route(strtolower($title)) }}"> {{$title}}</a></li>
+                <li class="breadcrumb-item active">{{$subtitle}}</li>
+                @endif
             </ul>
         </div>
     </div>

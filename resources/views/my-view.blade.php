@@ -2,13 +2,15 @@
 <div class="row">
     @yield('info')
 </div>
-<div class="row">
+<div class="row clearfix">
     <div class="col-12">
         <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Data {{$title}}</h4>
+            <div class="header">
+                <h2><strong>Data</strong> {{$title}} </h2>
+            </div>
+            <div class="body">
                 {{-- <h6 class="card-subtitle">Export data to Copy, CSV, Excel, PDF & Print</h6> --}}
-                <x-btn_tambah :link="$createLink" />
+                <x-btn.add :link="$createLink" />
                 <div class="table-responsive m-t-40">
                     <table id="dt" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0"
                         width="100%">

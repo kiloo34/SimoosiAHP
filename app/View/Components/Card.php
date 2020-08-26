@@ -6,14 +6,19 @@ use Illuminate\View\Component;
 
 class Card extends Component
 {
+    public $title, $subtitle, $data, $date;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($title)
     {
-        //
+        // , $subtitle, $data, $date
+        $this->title =  $title;
+        // $this->subtitle =  $subtitle;
+        // $this->data =  $data;
+        // $this->date =  $date;
     }
 
     /**
