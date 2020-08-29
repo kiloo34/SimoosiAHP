@@ -1,7 +1,8 @@
 <aside id="leftsidebar" class="sidebar">
     <ul class="nav nav-tabs">
-        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#dashboard"><i
-                    class="zmdi zmdi-home m-r-5"></i>Home</a></li>
+        <li class="nav-item"><a class="navbar-brand" data-toggle="tab" href="{{ route('dashboard') }}">SimooSi</a></li>
+                    {{-- <a class="navbar-brand" href="{{ route('dashboard') }}"><img src="assets/images/logo.svg" width="30"
+                        alt="Oreo"><span class="m-l-10">SimooSi</span></a> --}}
     </ul>
     <div class="tab-content">
         <div class="tab-pane stretchRight active" id="dashboard">
