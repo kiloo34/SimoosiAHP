@@ -4,19 +4,17 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Logo extends Component
+class CardHeader extends Component
 {
-    public $link;
+    public $subtitle;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($link)
+    public function __construct($subtitle)
     {
-        //
-        $this->$link = $link;
-
+        $this->subtitle = $subtitle;
     }
 
     /**
@@ -26,6 +24,6 @@ class Logo extends Component
      */
     public function render()
     {
-        return view('components.logo');
+        return view('components.card-header');
     }
 }

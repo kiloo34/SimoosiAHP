@@ -6,14 +6,18 @@ use Illuminate\View\Component;
 
 class Add extends Component
 {
+    // public $title, $subtitle;
+    public $link;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($link)
     {
-        //
+        // $this->$title= $title;
+        // $this->$subtitle = $subtitle;
+        $this->link = $link;
     }
 
     /**

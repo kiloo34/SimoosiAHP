@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', 'HomeController@index')->name('dashboard');
+Route::get('/', 'HomeController@index')->name('dashboard.index');
 
 Route::resource('ternak', 'TernakController');
 Route::resource('peternak', 'PeternakController');

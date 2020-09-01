@@ -151,7 +151,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar4.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar4.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">Sophia</span>
                                         <span class="message">There are many variations of passages of Lorem
@@ -164,7 +164,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar5.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar5.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">Grayson</span>
                                         <span class="message">All the Lorem Ipsum generators on the</span>
@@ -176,7 +176,7 @@
                         <li class="offline">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar2.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar2.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">Isabella</span>
                                         <span class="message">Contrary to popular belief, Lorem Ipsum</span>
@@ -188,7 +188,7 @@
                         <li class="me">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar1.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar1.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">John</span>
                                         <span class="message">It is a long established fact that a reader</span>
@@ -200,7 +200,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar3.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar3.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">Alexander</span>
                                         <span class="message">Richard McClintock, a Latin professor</span>
@@ -217,7 +217,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar10.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar10.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -227,7 +227,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar6.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar6.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -237,7 +237,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar7.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar7.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -247,7 +247,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar8.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar8.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -257,7 +257,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar9.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar9.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -267,7 +267,7 @@
                         <li class="online inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar5.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar5.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -277,7 +277,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar4.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar4.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -287,7 +287,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar3.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar3.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -297,7 +297,7 @@
                         <li class="online inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar2.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar2.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -307,7 +307,7 @@
                         <li class="offline inlineblock">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="assets/images/xs/avatar1.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar1.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="badge badge-outline status"></span>
                                     </div>
@@ -324,14 +324,14 @@
                     <h6>Recent Activity</h6>
                     <div class="streamline b-accent">
                         <div class="sl-item">
-                            <img class="user rounded-circle" src="assets/images/xs/avatar4.jpg" alt="">
+                            <img class="user rounded-circle" src="{{ asset('assets/images/xs/avatar4.jpg') }}" alt="">
                             <div class="sl-content">
                                 <h5 class="m-b-0">Admin Birthday</h5>
                                 <small>Jan 21 <a href="javascript:void(0);" class="text-info">Sophia</a>.</small>
                             </div>
                         </div>
                         <div class="sl-item">
-                            <img class="user rounded-circle" src="assets/images/xs/avatar5.jpg" alt="">
+                            <img class="user rounded-circle" src="{{ asset('assets/images/xs/avatar5.jpg') }}" alt="">
                             <div class="sl-content">
                                 <h5 class="m-b-0">Add New Contact</h5>
                                 <small>30min ago <a href="javascript:void(0);">Alexander</a>.</small>
@@ -340,7 +340,7 @@
                             </div>
                         </div>
                         <div class="sl-item">
-                            <img class="user rounded-circle" src="assets/images/xs/avatar6.jpg" alt="">
+                            <img class="user rounded-circle" src="{{ asset('assets/images/xs/avatar6.jpg') }}" alt="">
                             <div class="sl-content">
                                 <h5 class="m-b-0">Code Change</h5>
                                 <small>Today <a href="javascript:void(0);">Grayson</a>.</small>
@@ -349,7 +349,7 @@
                             </div>
                         </div>
                         <div class="sl-item">
-                            <img class="user rounded-circle" src="assets/images/xs/avatar7.jpg" alt="">
+                            <img class="user rounded-circle" src="{{ asset('assets/images/xs/avatar7.jpg') }}" alt="">
                             <div class="sl-content">
                                 <h5 class="m-b-0">New Email</h5>
                                 <small>45min ago <a href="javascript:void(0);" class="text-info">Fidel

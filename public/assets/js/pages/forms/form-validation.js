@@ -1,5 +1,5 @@
 $(function () {
-    $('#form_validation').validate({
+    $('#forms').validate({
         rules: {
             'checkbox': {
                 required: true

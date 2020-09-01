@@ -1,7 +1,5 @@
-@include('template.table.head')
-<div class="row">
-    @yield('info')
-</div>
+@extends('app.table')
+@section('content')
 <div class="row clearfix">
     <div class="col-12">
         <div class="card">
@@ -9,9 +7,10 @@
                 <h2><strong>Data</strong> {{$title}} </h2>
             </div>
             <div class="body">
-                {{-- <h6 class="card-subtitle">Export data to Copy, CSV, Excel, PDF & Print</h6> --}}
-                <x-btn.add :link="$createLink" />
-                <div class="table-responsive m-t-40">
+                <div class="hidden-print col-md-12 text-right">
+                    <x-btn.add :link="$createLink" />
+                </div>
+                <div class="table-responsive">
                     <table id="dt" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0"
                         width="100%">
                         @yield('table')
@@ -52,5 +51,5 @@
         });
     }
 
-</script>
-@include('template.table.foot')
+</script>    
+@endsection

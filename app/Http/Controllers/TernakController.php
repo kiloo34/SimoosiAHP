@@ -28,7 +28,12 @@ class TernakController extends Controller
      */
     public function create()
     {
-        //
+        return view('ternak.create', [
+            'title'     => 'Ternak',
+            'subtitle'  => 'Tambah Ternak',
+            'action'    => route('ternak.store'),
+            'backLink'  => route('ternak.index')  
+        ]);
     }
 
     /**
@@ -39,7 +44,7 @@ class TernakController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd('masuk store');
     }
 
     /**

@@ -1,3 +1,4 @@
-<div>
-    <!-- Well begun is half done. - Aristotle -->
-</div>
+<a href={{$backLink}} class="btn btn-danger btn-round btn-sm">
+    <i class="zmdi zmdi-close"></i>
+     Batal
+</a>

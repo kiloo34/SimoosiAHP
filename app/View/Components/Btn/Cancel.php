@@ -6,14 +6,15 @@ use Illuminate\View\Component;
 
 class Cancel extends Component
 {
+    public $backLink;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($backLink)
     {
-        //
+        $this->backLink = $backLink;
     }
 
     /**
