@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SPKController extends Controller
+class JenisController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,11 @@ class SPKController extends Controller
      */
     public function index()
     {
-        //
+        return view('ternak.jenis.index', [
+            'title'         => 'Jenis',
+            'subtitle'      => ' ',
+            'createLink'    => route('jenis.create')
+        ]);
     }
 
     /**
@@ -23,7 +27,12 @@ class SPKController extends Controller
      */
     public function create()
     {
-        //
+        return view('ternak.jenis.create', [
+            'title'         => 'Jenis',
+            'subtitle'      => 'Tambah Jenis Ternak',
+            'action'        => route('jenis.store'),
+            'backLink'      => route('jenis.index')
+        ]);
     }
 
     /**
@@ -34,7 +43,7 @@ class SPKController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // return view();
     }
 
     /**

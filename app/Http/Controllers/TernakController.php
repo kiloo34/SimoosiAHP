@@ -32,7 +32,7 @@ class TernakController extends Controller
             'title'     => 'Ternak',
             'subtitle'  => 'Tambah Ternak',
             'action'    => route('ternak.store'),
-            'backLink'  => route('ternak.index')  
+            'backLink'  => route('ternak.index')
         ]);
     }
 

@@ -16,7 +16,10 @@ class CreateTernakTable extends Migration
         Schema::create('ternak', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            
+            $table->string('umur');
+            $table->string('hargaBeli');
+            $table->string('hargaJual')->default('0');
+            $table->foreignId('jenis_id')->constrained()->OnUpdate('cascade');
             $table->timestamps();
         });
     }

@@ -1,4 +1,4 @@
-@extends('my-view')
+@extends('table-view')
 @section('table')
 <thead>
     <tr>

@@ -21,6 +21,10 @@ Route::get('/', 'HomeController@index')->name('dashboard.index');
 
 Route::resource('ternak', 'TernakController');
 Route::resource('peternak', 'PeternakController');
+Route::resource('jenis', 'JenisController');
+Route::get('rekomendasi', 'RekomendasiController@index')->name('rekomendasi.index');
+Route::get('kriteria', 'RekomendasiController@kriteria')->name('kriteria.index');
+Route::get('kriteria/create', 'RekomendasiController@create')->name('kriteria.create');
 
 Auth::routes();
 
